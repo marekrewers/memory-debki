@@ -4,7 +4,7 @@ Theme URI: http://www.ansonika.com/paradise/
 Author: Ansonika
 Author URI: http://themeforest.net/user/Ansonika/
 
-[Table of contents] 
+[Table of contents]
 
 1. SITE STRUCTURE and TYPOGRAPHY
 - 1.0 Preloader
@@ -30,7 +30,7 @@ Author URI: http://themeforest.net/user/Ansonika/
 - 3.1 Misc
 - 3.2 Datepicker
 - 3.3 Forms
-- 3.4 Success submit 
+- 3.4 Success submit
 - 3.5 Progess Scroll to top
 - 3.6 Spacing
 - 3.7 Pagination
@@ -2177,7 +2177,7 @@ img.jarallax-img.kenburns-2 {
         }
 
         @include mobile {
-            height: 87vh;
+            height: 100vh;
         }
     }
 
@@ -2850,7 +2850,7 @@ footer {
     }
 }
 
-a.box_cat_rooms {
+.box_cat_rooms {
     display: block;
     margin-bottom: 25px;
     height: 500px;
@@ -3648,7 +3648,7 @@ a.box_cat_rooms {
     }
 }
 
-/* hover effect 
+/* hover effect
 .carousel_item {
     .item {
          img {

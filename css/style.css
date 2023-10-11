@@ -4,7 +4,7 @@ Theme URI: http://www.ansonika.com/paradise/
 Author: Ansonika
 Author URI: http://themeforest.net/user/Ansonika/
 
-[Table of contents] 
+[Table of contents]
 
 1. SITE STRUCTURE and TYPOGRAPHY
 - 1.0 Preloader
@@ -30,7 +30,7 @@ Author URI: http://themeforest.net/user/Ansonika/
 - 3.1 Misc
 - 3.2 Datepicker
 - 3.3 Forms
-- 3.4 Success submit 
+- 3.4 Success submit
 - 3.5 Progess Scroll to top
 - 3.6 Spacing
 - 3.7 Pagination
@@ -1992,7 +1992,7 @@ img.jarallax-img.kenburns-2 {
 }
 @media (max-width: 767px) {
   .hero.full-height {
-    height: 87vh;
+    height: 100vh;
   }
 }
 .hero.medium-height {
@@ -2669,7 +2669,7 @@ footer .copy {
   }
 }
 
-a.box_cat_rooms {
+.box_cat_rooms {
   display: block;
   margin-bottom: 25px;
   height: 500px;
@@ -2682,11 +2682,11 @@ a.box_cat_rooms {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 991px) {
-  a.box_cat_rooms {
+  .box_cat_rooms {
     height: 400px;
   }
 }
-a.box_cat_rooms .info {
+.box_cat_rooms .info {
   position: absolute;
   width: 100%;
   z-index: 9;
@@ -2715,7 +2715,7 @@ a.box_cat_rooms .info {
   background: -webkit-linear-gradient(top, transparent, #000);
   background: linear-gradient(to bottom, transparent, #000);
 }
-a.box_cat_rooms .info small {
+.box_cat_rooms .info small {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
@@ -2726,14 +2726,14 @@ a.box_cat_rooms .info small {
   font-size: 0.75rem;
   color: #fff;
 }
-a.box_cat_rooms .info h3 {
+.box_cat_rooms .info h3 {
   color: #fff;
   font-size: 26px;
   font-size: 1.625rem;
   font-weight: 600;
   margin-bottom: 15px;
 }
-a.box_cat_rooms .info span {
+.box_cat_rooms .info span {
   font-size: 15px;
   font-size: 0.9375rem;
   font-weight: 600;
@@ -2743,7 +2743,7 @@ a.box_cat_rooms .info span {
   opacity: 0;
   position: relative;
 }
-a.box_cat_rooms .info span:before {
+.box_cat_rooms .info span:before {
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -2753,30 +2753,30 @@ a.box_cat_rooms .info span:before {
   transition: width 500ms ease;
   background-color: #fff;
 }
-a.box_cat_rooms .info span:hover {
+.box_cat_rooms .info span:hover {
   background-color: #24262d;
   border-color: transparent;
 }
-a.box_cat_rooms figure {
+.box_cat_rooms figure {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-a.box_cat_rooms:hover .info {
+.box_cat_rooms:hover .info {
   -webkit-transform: translate(0, -65px);
   -moz-transform: translate(0, -65px);
   -ms-transform: translate(0, -65px);
   -o-transform: translate(0, -65px);
   transform: translate(0, -65px);
 }
-a.box_cat_rooms:hover .info span {
+.box_cat_rooms:hover .info span {
   opacity: 1;
 }
-a.box_cat_rooms:hover .info span:before {
+.box_cat_rooms:hover .info span:before {
   width: 100%;
 }
-a.box_cat_rooms:hover .background-image {
+.box_cat_rooms:hover .background-image {
   -ms-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -3468,7 +3468,7 @@ a.box_cat_rooms:hover .background-image {
   }
 }
 
-/* hover effect 
+/* hover effect
 .carousel_item {
     .item {
          img {
